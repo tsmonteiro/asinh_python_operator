@@ -3,7 +3,7 @@
     "description": "Transforms values using inverse hyperpolic functions. Also denoted as arcsinh, arsinh, or argsinh.",
     "tags": ["data transformation", "data wrangling", "transform","flow cytometry"],
     "authors": ["tercen"],
-    "urls": ["https://github.com/tsmonteiro/asinh-python-operator"],
+    "urls": ["https://github.com/tsmonteiro/asinh_python_operator"],
     "container":"tsmonteiro/asinh_python_operator:latest",
     "properties": [
         {
