@@ -17,13 +17,13 @@ def transform_and_scale(x, scale):
 
 scale = tercenCtx.operator_property('scale', typeFn=int, default=5)
 
-tercenCtx.progress("Reading data")
+tercenCtx.progress("Reading data", 1, 1)
 df = tercenCtx.select(['.y', '.ci', '.ri'])
 
-tercenCtx.progress("Transforming")
+tercenCtx.progress("Transforming", 1, 1)
 df = df.with_columns(asinh=pl.col(".y") / scale).drop(".y")
 
 df = tercenCtx.add_namespace(df) 
 
-tercenCtx.progress("Saving")
+tercenCtx.progress("Saving", 1, 1)
 tercenCtx.save(df)
