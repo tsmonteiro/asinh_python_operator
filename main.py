@@ -15,8 +15,6 @@ tercenCtx = ctx.TercenContext()
 def transform_and_scale(x, scale):
     return math.asinh(x/scale)
 
-
-
 scale = tercenCtx.operator_property('scale', typeFn=int, default=5)
 
 tercenCtx.progress("Reading data")
