@@ -2,7 +2,7 @@ from tercen.client import context as ctx
 import numpy as np
 import math
 import polars as pl
-import time
+
 
 
 #http://127.0.0.1:5400/test/w/5409bc1875748e715c48848fd3004e42/ds/b01374e4-0faa-43d1-8e78-a4e349e1e0d2
