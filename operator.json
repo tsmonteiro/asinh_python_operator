@@ -4,7 +4,7 @@
     "tags": ["data transformation", "data wrangling", "transform","flow cytometry"],
     "authors": ["tercen"],
     "urls": ["https://github.com/tsmonteiro/asinh-python-operator"],
-    "container":"tercen/asinh-python-operator:latest",
+    "container":"tsmonteiro/asinh_python_operator:latest",
     "properties": [
         {
             "kind": "StringProperty",
