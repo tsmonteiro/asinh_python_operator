@@ -1,5 +1,4 @@
 from tercen.client import context as ctx
-import numpy as np
 import math
 import polars as pl
 
